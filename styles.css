@@ -1,0 +1,80 @@
+/* Color Theme Swatches in Hex */
+.black {
+	background-color: #1c2226;
+}
+.grey {
+	background-color: #8d9ca6;
+}
+.yellow1 {
+	background-color: #f2d541;
+}
+.yellow2 {
+	background-color: #f2cb57;
+}
+.orange {
+	background-color: #d98f07;
+}
+
+/* General */
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Body */
+body {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
+
+/* Header */
+
+header {
+	width: 100%;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+header a {
+	height: 3rem;
+	min-height: 30px;
+	padding: 0 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+header a:hover {
+	font: bold;
+	color: #1c2226;
+	cursor: pointer;
+	background-color: #f2cb57;
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	display: inline-block;
+	color: #1c2226;
+}
+footer div {
+	height: 3rem;
+	min-height: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
