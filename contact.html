@@ -8,7 +8,7 @@
     <title>Contact</title>
 </head>
 <body>
-    <header class="yellow1">
+    <header class="header yellow1">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -16,8 +16,33 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <p>Contact</p>
+    <main class="contact">
+        <div>
+            <h1>Contact</h1>
+        </div>
+        <div class="contact_div grey">
+            <form action="/index.html" method="post" >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name, please" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email, please" required>
+                <p>Please, choose if you are student or teacher</p>
+                <div id="radio_buttons">
+                    <div>
+                        <input type="radio" id="student" name="choice" value="student">
+                        <label for="student">Student</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="teacher" name="choice" value="teacher">
+                        <label for="teacher">Teacher</label>
+                    </div>
+                </div>
+                <textarea name="message" cols="50" rows="10" placeholder="Please, enter a message if you would."></textarea>
+                <div id="button">
+                    <button type="submit">Send</button>
+                </div> 
+            </form>
+        </div>
     </main>
     <footer>
         <div class="footer grey">
